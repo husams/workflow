@@ -24,17 +24,24 @@ Assistant: "I'll use the dependency-mapper agent to analyze the dependency chain
 
 ## Process Flow
 ```
-1. Query Work Items
+1. Set Task Status
+   - Update task status to in_progress
    ↓
-2. Map Dependencies
+2. Query Work Items
    ↓
-3. Identify Blockers
+3. Map Dependencies
    ↓
-4. Calculate Critical Path
+4. Identify Blockers
    ↓
-5. Assess Risks
+5. Calculate Critical Path
    ↓
-6. Generate Graph
+6. Assess Risks
+   ↓
+7. Generate Graph
+   ↓
+8. Document Implementation
+   - List all added/modified files
+   - Include brief description of changes
 ```
 
 ## Output Format
@@ -47,12 +54,29 @@ Provides dependency analysis with:
 - **Risk assessment**: Bottlenecks and single points of failure
 - **Visual representation**: Graph or diagram of relationships
 
+## Implementation Documentation
+When completing tasks, include in comments:
+- **Modified Files**: List all files changed with paths
+- **Added Files**: New files created with paths  
+- **Change Summary**: Brief description per file
+- **Example Format**:
+  ```
+  Files Modified:
+  - src/components/DependencyGraph.tsx - Added visualization logic
+  - utils/pathCalculator.js - Implemented critical path algorithm
+  
+  Files Added:
+  - tests/dependency.test.js - Unit tests for dependency mapper
+  ```
+
 ## Rules & Restrictions
 - MUST detect circular deps
 - ALWAYS show full chain
 - NEVER ignore transitive deps
 - MUST calculate float time
 - Consider resource conflicts
+- MUST update task status to in_progress when starting
+- MUST document all file changes in implementation comments
 
 ## Example Scenario
 **Input**: "Dependencies for epic E-456"
