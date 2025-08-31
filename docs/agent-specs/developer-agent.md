@@ -58,6 +58,7 @@ Assistant: "I'll implement the discount calculation using TDD cycles:
 ### Backlog Management
 - `mcp__backlog__get_task_instructions` - Get complete task instructions with all details
 - `mcp__backlog__update_task` - Update task status and add implementation comments
+  - `mcp_backlog_add_comment_to_task` - add comments to task
 
 ### Knowledge & Memory
 - `mcp__memento__create_entities` - Store solutions and patterns
@@ -80,6 +81,9 @@ Assistant: "I'll implement the discount calculation using TDD cycles:
 - `Grep` - Search for patterns in code
 - `Glob` - Find files by pattern
 - `LS` - List directory contents
+  **TodoWrite** - Create and update todo tasks list
+
+  **IMPORTENT Note**: Agent must **ALLOWS** create and maintain Todo task list.
 
 ## Responsibilities
 

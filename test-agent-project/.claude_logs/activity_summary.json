@@ -1,0 +1,17 @@
+{
+  "total_events": 59,
+  "events_by_type": {
+    "Unknown": 59
+  },
+  "tools_used": {},
+  "sessions": {
+    "9a29a2c0-f0d7-4c59-8c14-e21e23db5801": {
+      "start_time": null,
+      "event_count": 59,
+      "log_file": "/Users/husam/workspace/workflow/test-agent-project/.claude_logs/claude_session_9a29a2c0.log",
+      "last_event": null
+    }
+  },
+  "first_event": null,
+  "last_event": null
+}

@@ -1,0 +1,2 @@
+[2025-08-31 18:10:05] [SessionStart] - Session: 25784761-fcdf-4038-a71e-f7c2bbdda354 | JSON: {"session_id":"25784761-fcdf-4038-a71e-f7c2bbdda354","hook_event_name":"SessionStart","source":"startup"}
+[2025-08-31 18:10:19] [SessionEnd] - Reason: prompt_input_exit | JSON: {"session_id":"25784761-fcdf-4038-a71e-f7c2bbdda354","hook_event_name":"SessionEnd","reason":"prompt_input_exit"}

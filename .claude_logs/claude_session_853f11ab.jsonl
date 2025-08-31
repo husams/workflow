@@ -1,0 +1,2 @@
+{"session_id": "853f11ab-00a0-4b38-8a82-532ddf5bbdd4", "hook_event_name": "SessionStart", "source": "startup"}
+{"session_id": "853f11ab-00a0-4b38-8a82-532ddf5bbdd4", "hook_event_name": "SessionEnd", "reason": "prompt_input_exit"}
