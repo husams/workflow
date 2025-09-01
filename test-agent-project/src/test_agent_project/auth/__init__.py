@@ -1,1 +1,0 @@
-"""Authentication module for testing TDD workflow."""
